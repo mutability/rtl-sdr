@@ -60,8 +60,8 @@ First some background for those unfamiliar with the internals of the dongle:
  * The tuner mixes the incoming RF signal with this PLL output. This shifts
    the RF signal down to a frequency that is the difference between the PLL
    frequency and the RF signal's frequency.
- * The tuner sends this intermediate frequency (IF) signal to the RTL2838U
- * The RTL2838U digitizes the IF signal and does a digital downconversion
+ * The tuner sends this intermediate frequency (IF) signal to the RTL2832U
+ * The RTL2832U digitizes the IF signal and does a digital downconversion
    step to generate I/Q samples that are centered around "zero". The
    downconverter can theoretically handle IF signals up to 14.4MHz.
 
